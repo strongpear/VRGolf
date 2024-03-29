@@ -39,6 +39,12 @@ Library: C:\Users\jlee4\VrGolf3\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_bur
 --assembly-defines=Oculus.Platform;
 --assembly-defines=Oculus.Spatializer;
 --assembly-defines=Oculus.VR;
+--assembly-defines=Photon3Unity3D;
+--assembly-defines=PhotonChat;
+--assembly-defines=PhotonRealtime;
+--assembly-defines=PhotonUnityNetworking.Demos;
+--assembly-defines=PhotonUnityNetworking;
+--assembly-defines=PhotonUnityNetworking.Utilities;
 --assembly-defines=System.Configuration;
 --assembly-defines=System.Core;
 --assembly-defines=System;
@@ -70,6 +76,7 @@ Library: C:\Users\jlee4\VrGolf3\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_bur
 --assembly-defines=VoiceSDK.Runtime;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\jlee4\VrGolf3\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\jlee4\VrGolf3\Library\Burst
 --output=C:\Users\jlee4\VrGolf3\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
@@ -116,6 +123,12 @@ Library: C:\Users\jlee4\VrGolf3\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_bur
 --assembly-defines=Oculus.Platform;
 --assembly-defines=Oculus.Spatializer;
 --assembly-defines=Oculus.VR;
+--assembly-defines=Photon3Unity3D;
+--assembly-defines=PhotonChat;
+--assembly-defines=PhotonRealtime;
+--assembly-defines=PhotonUnityNetworking.Demos;
+--assembly-defines=PhotonUnityNetworking;
+--assembly-defines=PhotonUnityNetworking.Utilities;
 --assembly-defines=System.Configuration;
 --assembly-defines=System.Core;
 --assembly-defines=System;
@@ -147,6 +160,7 @@ Library: C:\Users\jlee4\VrGolf3\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_bur
 --assembly-defines=VoiceSDK.Runtime;
 --generate-link-xml=Temp\burst.link.xml
 --temp-folder=C:\Users\jlee4\VrGolf3\Temp\Burst
+--debug=Full
 --key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer
 --decode-folder=C:\Users\jlee4\VrGolf3\Library\Burst
 --output=C:\Users\jlee4\VrGolf3\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated

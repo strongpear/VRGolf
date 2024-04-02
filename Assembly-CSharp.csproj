@@ -1374,9 +1374,9 @@
     <ProjectReference Include="Meta.WitAi.Lib.csproj" />
     <ProjectReference Include="Oculus.Interaction.OVR.Editor.csproj" />
     <ProjectReference Include="VoiceSDK.Runtime.csproj" />
+    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj" />
     <ProjectReference Include="Oculus.VR.csproj" />
     <ProjectReference Include="Meta.VoiceSDK.Mic.WebGL.csproj" />
-    <ProjectReference Include="Oculus.AudioManager.Utils.Editor.csproj" />
     <ProjectReference Include="PhotonUnityNetworking.Editor.csproj" />
     <ProjectReference Include="Oculus.Platform.Editor.csproj" />
     <ProjectReference Include="Oculus.LipSync.Editor.csproj" />

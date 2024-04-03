@@ -7,6 +7,9 @@ using Photon.Pun;
 
 public class MovementManager : MonoBehaviour
 { 
+
+    public int playerID; 
+    
     private PhotonView myView;
     private GameObject myChild;
 

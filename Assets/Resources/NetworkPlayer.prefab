@@ -54,7 +54,7 @@ MonoBehaviour:
   OwnershipTransfer: 0
   observableSearch: 0
   ObservedComponents:
-  - {fileID: 8891778738025698834}
+  - {fileID: 413246452260017836}
   sceneViewId: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
@@ -70,6 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b67d88e8898f4047a928f862b269514, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerID: 0
   speed: 5
 --- !u!114 &413246452260017836
 MonoBehaviour:

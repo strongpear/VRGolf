@@ -1,20 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
-public class CollisionDetection : MonoBehaviour
+
+public class HoleCollisionDetector : MonoBehaviour
 {
-    public bool collided = false;
-    public string ballName;
+    public bool holeFinished = false;
+    // Start is called before the first frame update
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Ball")
         {
-            collided = true;
-            ballName = collision.gameObject.name;
+            holeFinished = true;
         }
         
     }
-    
 }
-

@@ -8,6 +8,7 @@ TagManager:
   - SamplesInfoPanel
   - teleportObjectTag
   - Ball
+  - Hole
   layers:
   - Default
   - TransparentFX

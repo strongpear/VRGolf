@@ -25,6 +25,8 @@ public class MovementManager : MonoBehaviour
     private Transform xrCamera;
     private Vector3 headsetForward;
     private Vector3 forwardDirection;
+
+    private LogisticsManager myLogistics;
     void Start()
     {
         myView = GetComponent<PhotonView>();
@@ -33,6 +35,10 @@ public class MovementManager : MonoBehaviour
         
         GameObject myXrOrigin = GameObject.Find("XR Origin"); 
         myXrRig = myXrOrigin.transform;
+
+        GameObject logistics = GameObject.Find("LogisticsManager");
+        myLogistics = logistics.GetComponent<LogisticsManager>();
+
         inputData = myXrOrigin.GetComponent<InputData>();   
     }
 
@@ -63,7 +69,20 @@ public class MovementManager : MonoBehaviour
                 forwardDirection = Vector3.ProjectOnPlane(Camera.main.transform.forward, Camera.main.transform.position.normalized).normalized;
 
             }
+
+            if (myLogistics.gameOver)
+            {
+                myView.RPC("communicateScore", RpcTarget.Others, myLogistics.currentStrokes);
+                // Game Over, communicate score
+                myLogistics.resetGameOver();
+            }
         }
+    }
+
+    [PunRPC]
+    void communicateScore(int score)
+    {
+        myLogistics.opponentStrokes = score;
     }
 }
 

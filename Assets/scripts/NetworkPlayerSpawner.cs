@@ -15,7 +15,7 @@ public class NetworkPlayerSpawner : MonoBehaviourPunCallbacks
         base.OnJoinedRoom();
         PhotonNetwork.Instantiate("NetworkPlayer", transform.position, transform.rotation);
         // PhotonNetwork.Instantiate("Putter", putterSpawn1.position, putterSpawn1.rotation);
-        PhotonNetwork.Instantiate("Ball", ballSpawn1.position, ballSpawn1.rotation);
+        // PhotonNetwork.Instantiate("Ball", ballSpawn1.position, ballSpawn1.rotation);
     }
 
     public override void OnLeftRoom()

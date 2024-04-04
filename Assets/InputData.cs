@@ -7,7 +7,7 @@ using UnityEngine.XR;
 public class InputData : MonoBehaviour
 {
     public InputDevice rightController;
-
+    public InputDevice leftController;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,6 +20,10 @@ public class InputData : MonoBehaviour
         if (!rightController.isValid)
         {
             InitializeInputDevice(InputDeviceCharacteristics.Controller | InputDeviceCharacteristics.Right, ref rightController);
+        }
+        if (!leftController.isValid)
+        {
+            InitializeInputDevice(InputDeviceCharacteristics.Controller | InputDeviceCharacteristics.Left, ref leftController);
         }    
     }
 

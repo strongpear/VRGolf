@@ -64,7 +64,7 @@ public class MovementManager : MonoBehaviour
         {
             myXrRig.position = myChild.transform.position;
             
-            if (inputData.rightController.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 movement))
+            if (inputData.leftController.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 movement))
             {
                 xInput = movement.x;
                 yInput = movement.y;

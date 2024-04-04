@@ -15,12 +15,13 @@ public class LogisticsManager : MonoBehaviour
     [SerializeField] public GameObject hole1;
     [SerializeField] public GameObject hole2;
     [SerializeField] public GameObject hole3;
+    [SerializeField] private GameObject putter;
 
     private List<bool> finishedList = new List<bool>() {false, false, false};
     private bool finished = false;
     private string gameOverText = "Game Over";
     public bool gameOver = false;
-
+    
     private List<int> strokesList = new List<int>(){0, 0, 0};
     private string totalStrokesText = "Total Strokes: ";
     private string courseStrokesText = "Course Strokes: ";
@@ -35,7 +36,7 @@ public class LogisticsManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        myColDec = GameObject.Find("Putter").GetComponent<CollisionDetection>();
+        myColDec = putter.GetComponent<CollisionDetection>();
         hole1ColDec = hole1.GetComponent<CollisionDetection>();
         hole2ColDec = hole2.GetComponent<CollisionDetection>();
         hole3ColDec = hole3.GetComponent<CollisionDetection>();

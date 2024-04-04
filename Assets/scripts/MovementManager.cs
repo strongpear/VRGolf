@@ -33,12 +33,16 @@ public class MovementManager : MonoBehaviour
     private Transform playerSpawn2;
     private Transform playerSpawn3;
 
+    private GameObject putter;
+
     void Start()
     {
         myView = GetComponent<PhotonView>();
 
         myChild = transform.GetChild(0).gameObject;
         
+        putter = GameObject.Find("Putter");
+
         rightControllerTransform = GameObject.Find("Right Controller").transform;
         GameObject myXrOrigin = GameObject.Find("XR Origin"); 
         myXrRig = myXrOrigin.transform;
@@ -110,6 +114,15 @@ public class MovementManager : MonoBehaviour
                 }
             }
 
+
+            // Putter Respawn
+            if (inputData.rightController.TryGetFeatureValue(CommonUsages.primaryButton, out bool pressed))
+            {
+                if (pressed)
+                {
+                    putter.transform.position = transform.position + new Vector3(0,2,0);
+                }
+            }
             if (myLogistics.gameOver)
             {
                 myView.RPC("communicateScore", RpcTarget.Others, myLogistics.currentStrokes);

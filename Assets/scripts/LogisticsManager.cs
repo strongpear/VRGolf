@@ -16,12 +16,12 @@ public class LogisticsManager : MonoBehaviour
     [SerializeField] public GameObject hole2;
     [SerializeField] public GameObject hole3;
 
-    private List<bool> finishedList = new List<bool>() {false};
+    private List<bool> finishedList = new List<bool>() {false, false, false};
     private bool finished = false;
     private string gameOverText = "Game Over";
     public bool gameOver = false;
 
-    private List<int> strokesList = new List<int>(){0};
+    private List<int> strokesList = new List<int>(){0, 0, 0};
     private string totalStrokesText = "Total Strokes: ";
     private string courseStrokesText = "Course Strokes: ";
     private string opponentText = "";
@@ -37,6 +37,8 @@ public class LogisticsManager : MonoBehaviour
     {
         myColDec = GameObject.Find("Putter").GetComponent<CollisionDetection>();
         hole1ColDec = hole1.GetComponent<CollisionDetection>();
+        hole2ColDec = hole2.GetComponent<CollisionDetection>();
+        hole3ColDec = hole3.GetComponent<CollisionDetection>();
         // Populate finished list
     }
 
@@ -49,17 +51,17 @@ public class LogisticsManager : MonoBehaviour
             currentStrokes++;
             myColDec.collided = false;
 
-            if (myColDec.name == "Ball 1")
+            if (myColDec.ballName == "Ball 1")
             {
                 strokesList[0]++;
                 Debug.Log(strokesList);
             }
-            else if (myColDec.name == "Ball 2")
+            else if (myColDec.ballName == "Ball 2")
             {
                 strokesList[1]++;
                 Debug.Log(strokesList);
             }
-            else if (myColDec.name == "Ball 3")
+            else if (myColDec.ballName == "Ball 3")
             {
                 strokesList[2]++;
                 Debug.Log(strokesList);
@@ -72,8 +74,19 @@ public class LogisticsManager : MonoBehaviour
         {
             Debug.Log("Hole 1 Finished");
             finishedList[0] = true;
-            myCourseStrokeText.text = courseStrokesText + strokesList[0].ToString() + " ";
         }
+        if (hole2ColDec.collided)
+        {
+            Debug.Log("Hole 2 Finished");
+            finishedList[1] = true;
+        }
+        if (hole3ColDec.collided)
+        {
+            Debug.Log("Hole 3 Finished");
+            finishedList[2] = true;
+        }
+
+        myCourseStrokeText.text = courseStrokesText + strokesList[0].ToString() + " " + strokesList[1].ToString() + " " + strokesList[2].ToString();
         // Check if game is finished
         if (CheckEndGame())
         {

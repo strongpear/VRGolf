@@ -25,21 +25,32 @@ public class MovementManager : MonoBehaviour
     private Transform xrCamera;
     private Vector3 headsetForward;
     private Vector3 forwardDirection;
+    private Transform rightControllerTransform;
 
     private LogisticsManager myLogistics;
+
+    private Transform playerSpawn1;
+    private Transform playerSpawn2;
+    private Transform playerSpawn3;
+
     void Start()
     {
         myView = GetComponent<PhotonView>();
 
         myChild = transform.GetChild(0).gameObject;
         
+        rightControllerTransform = GameObject.Find("Right Controller").transform;
         GameObject myXrOrigin = GameObject.Find("XR Origin"); 
         myXrRig = myXrOrigin.transform;
 
         GameObject logistics = GameObject.Find("LogisticsManager");
         myLogistics = logistics.GetComponent<LogisticsManager>();
 
-        inputData = myXrOrigin.GetComponent<InputData>();   
+        inputData = myXrOrigin.GetComponent<InputData>();  
+
+        playerSpawn1 = GameObject.Find("Spawn 1").transform;
+        playerSpawn2 = GameObject.Find("Spawn 2").transform;
+        playerSpawn3 = GameObject.Find("Spawn 3").transform; 
     }
 
 
@@ -68,6 +79,35 @@ public class MovementManager : MonoBehaviour
                 // Recalculate forward direction
                 forwardDirection = Vector3.ProjectOnPlane(Camera.main.transform.forward, Camera.main.transform.position.normalized).normalized;
 
+            }
+            // Teleportation? (WIP)
+            if (inputData.rightController.TryGetFeatureValue(CommonUsages.trigger, out float triggered))
+            {
+                if (triggered > 0.3)
+                {
+                    RaycastHit hit;
+                    if (Physics.Raycast(rightControllerTransform.position, rightControllerTransform.forward, out hit, Mathf.Infinity))
+                    {
+                        if (hit.collider.tag == "teleportObjectTag")
+                        {
+                            if (hit.collider.name == "Banner 1")
+                            {
+                                transform.position = playerSpawn1.position;
+                                transform.rotation = playerSpawn1.rotation;
+                            }
+                            else if (hit.collider.name == "Banner 2")
+                            {
+                                transform.position = playerSpawn2.position;
+                                transform.rotation = playerSpawn3.rotation;
+                            }
+                            else if (hit.collider.name == "Banner 3")
+                            {
+                                transform.position = playerSpawn3.position;
+                                transform.rotation = playerSpawn3.rotation;
+                            }
+                        }
+                    }
+                }
             }
 
             if (myLogistics.gameOver)

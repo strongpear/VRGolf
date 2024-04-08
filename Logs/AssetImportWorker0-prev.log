@@ -1,0 +1,425 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 130834 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Owner/Documents/GitHub/VRGolf
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51063
+Successfully changed project path to: C:/Users/Owner/Documents/GitHub/VRGolf
+C:/Users/Owner/Documents/GitHub/VRGolf
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9148] Host "[IP] 10.183.131.176 [Port] 0 [Flags] 2 [Guid] 3387733635 [EditorId] 3387733635 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C7RVOC1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9148] Host "[IP] 10.183.131.176 [Port] 0 [Flags] 2 [Guid] 3387733635 [EditorId] 3387733635 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-C7RVOC1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 13.60 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 1.47 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Owner/Documents/GitHub/VRGolf/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 (ID=0x2704)
+    Vendor:   NVIDIA
+    VRAM:     16064 MB
+    Driver:   31.0.15.3203
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003402 seconds.
+- Loaded All Assemblies, in  0.170 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.134 seconds
+Domain Reload Profiling: 303ms
+	BeginReloadAssembly (52ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (68ms)
+		LoadAssemblies (51ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (67ms)
+			TypeCache.Refresh (66ms)
+				TypeCache.ScanAssembly (58ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (134ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (104ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.432 seconds
+Refreshing native plugins compatible for Editor in 9.26 ms, found 16 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+[XR] OVRP version 1.89.0
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.490 seconds
+Domain Reload Profiling: 920ms
+	BeginReloadAssembly (75ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (5ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (309ms)
+		LoadAssemblies (197ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (106ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (491ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (385ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 8.34 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.04 ms.
+Unloading 8190 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 163 unused Assets / (0.5 MB). Loaded Objects now: 8619.
+Memory consumption went from 314.9 MB to 314.4 MB.
+Total: 3.423200 ms (FindLiveObjects: 0.405200 ms CreateObjectMapping: 0.145100 ms MarkObjects: 2.619600 ms  DeleteObjects: 0.252500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 813872.856145 seconds.
+  path: Assets/Chractermodel
+  artifactKey: Guid(d3a6aa001d62d0e47992dbe0973eba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Chractermodel using Guid(d3a6aa001d62d0e47992dbe0973eba1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dfd1c7e62b93af90d8e3b99fc99bcc') in 0.001837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.749279 seconds.
+  path: Assets/models
+  artifactKey: Guid(2b7d7dbf53ba7844399986d9779ea5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models using Guid(2b7d7dbf53ba7844399986d9779ea5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8318528e59a57966bfb6b224aa29eb37') in 0.000429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030465 seconds.
+  path: Assets/models/New Physic Material.physicMaterial
+  artifactKey: Guid(75579e542fc17de439e1375b5d0baf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/New Physic Material.physicMaterial using Guid(75579e542fc17de439e1375b5d0baf2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca34b0b73b49e301dc6b59dfe595644') in 0.008809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.584238 seconds.
+  path: Assets/models/courses
+  artifactKey: Guid(b253f45230fe14e43be305971feca1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/courses using Guid(b253f45230fe14e43be305971feca1c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bdda298b29fbac62111aba03fd46337') in 0.000384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.116414 seconds.
+  path: Assets/models/courses/course1.fbx
+  artifactKey: Guid(1f46d1414b28bff4a8358b4b1a51345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/courses/course1.fbx using Guid(1f46d1414b28bff4a8358b4b1a51345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f188974b3fd4cea2636cd54c37a4c447') in 0.619631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.315 seconds
+Refreshing native plugins compatible for Editor in 9.39 ms, found 16 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.705 seconds
+Domain Reload Profiling: 1017ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (17ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (705ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 8.94 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.04 ms.
+Unloading 7922 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (475.2 KB). Loaded Objects now: 8707.
+Memory consumption went from 270.7 MB to 270.2 MB.
+Total: 3.684300 ms (FindLiveObjects: 0.371700 ms CreateObjectMapping: 0.156300 ms MarkObjects: 2.914100 ms  DeleteObjects: 0.241000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 456.568911 seconds.
+  path: Assets/moregolfcourses/flag.jpg
+  artifactKey: Guid(c6c6fb575694be64aa2fb38ce87b4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/flag.jpg using Guid(c6c6fb575694be64aa2fb38ce87b4711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6fbc50835c2b8a6d7daf092cc3562a') in 0.063291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/moregolfcourses/goal.jpg
+  artifactKey: Guid(5ec32ad8fea4fd64da2ca9cbaf0eb579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/goal.jpg using Guid(5ec32ad8fea4fd64da2ca9cbaf0eb579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633512967f967df724eb6990a04476f5') in 0.013053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/moregolfcourses/ground.jpg
+  artifactKey: Guid(9d7842292fbb37d47bc438882cb82d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/ground.jpg using Guid(9d7842292fbb37d47bc438882cb82d42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02f3d82647bdf121f06bad0332dd7e0') in 0.013578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 118.394900 seconds.
+  path: Assets/moregolfcourses/firstcourse
+  artifactKey: Guid(283e17f74c1f4cf43b420cb87a3e3ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/firstcourse using Guid(283e17f74c1f4cf43b420cb87a3e3ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4be5f6b6b0d340f12e7972a923c710') in 0.000561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 88.494308 seconds.
+  path: Assets/moregolfcourses/second course
+  artifactKey: Guid(299e6ab9b91e9ff44bc548da66376071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/second course using Guid(299e6ab9b91e9ff44bc548da66376071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ab0f40ea42801f041bc5710622e7c4') in 0.000808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.733399 seconds.
+  path: Assets/moregolfcourses/second course/course3_hole17.fbx
+  artifactKey: Guid(21289d0ac5a4eb44c86dd179d56cc721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/second course/course3_hole17.fbx using Guid(21289d0ac5a4eb44c86dd179d56cc721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1a5eb704e37ef0801123d5def28d5a') in 0.205255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 29.226744 seconds.
+  path: Assets/moregolfcourses/second course/course3_hole17.fbx
+  artifactKey: Guid(21289d0ac5a4eb44c86dd179d56cc721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/second course/course3_hole17.fbx using Guid(21289d0ac5a4eb44c86dd179d56cc721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4128a62436c89e5c51efacfb50e8244f') in 0.066526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/moregolfcourses/second course/wall.jpg
+  artifactKey: Guid(44859437a53c3274d9a57e54ad6403cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/second course/wall.jpg using Guid(44859437a53c3274d9a57e54ad6403cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d804cb03856b3ea63664d7b1842da4') in 0.010948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/moregolfcourses/second course/house.jpg
+  artifactKey: Guid(5cdb00ea07cb38445bb3fbb0598cc9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/second course/house.jpg using Guid(5cdb00ea07cb38445bb3fbb0598cc9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174ab12c185fbe56779e80476ac5c472') in 0.011191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 173.374251 seconds.
+  path: Assets/moregolfcourses/third course/flag.jpg
+  artifactKey: Guid(d5bafac9f4db7f442a308ad2fc3cca2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/third course/flag.jpg using Guid(d5bafac9f4db7f442a308ad2fc3cca2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925b498addcc0f7ce5c3c303eb102562') in 0.012570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/moregolfcourses/third course/ground.jpg
+  artifactKey: Guid(ada6b6ed5965f2c42ace0a31647eacb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/third course/ground.jpg using Guid(ada6b6ed5965f2c42ace0a31647eacb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ee8ef82940fe6af35730f055b63281') in 0.014456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/moregolfcourses/third course/wall.jpg
+  artifactKey: Guid(8e155be40b3f69841877d14e7d51e27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/third course/wall.jpg using Guid(8e155be40b3f69841877d14e7d51e27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b495ab429b0302648420cc22110b51bc') in 0.012748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/moregolfcourses/third course/rock.jpg
+  artifactKey: Guid(6ff91c0c0b5970447a06dae1c42f5cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/moregolfcourses/third course/rock.jpg using Guid(6ff91c0c0b5970447a06dae1c42f5cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770bc0605cddadefb47be0a0fc99aa91') in 0.010818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

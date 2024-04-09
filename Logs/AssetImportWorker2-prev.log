@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16330 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 32581 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/jlee4/VrGolf3
+C:/Users/asapg/Desktop/spring2024/vr/vr_golf/VRGolf
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51797
-Successfully changed project path to: C:/Users/jlee4/VrGolf3
-C:/Users/jlee4/VrGolf3
+65387
+Successfully changed project path to: C:/Users/asapg/Desktop/spring2024/vr/vr_golf/VRGolf
+C:/Users/asapg/Desktop/spring2024/vr/vr_golf/VRGolf
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,71 +49,71 @@ C:/Users/jlee4/VrGolf3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9924] Host "[IP] 192.168.1.176 [Port] 0 [Flags] 2 [Guid] 258127643 [EditorId] 258127643 [Version] 1048832 [Id] WindowsEditor(7,jlee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28956] Host "[IP] 10.0.48.205 [Port] 0 [Flags] 2 [Guid] 997065204 [EditorId] 997065204 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9PB1TMA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9924] Host "[IP] 192.168.1.176 [Port] 0 [Flags] 2 [Guid] 258127643 [EditorId] 258127643 [Version] 1048832 [Id] WindowsEditor(7,jlee) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28956] Host "[IP] 10.0.48.205 [Port] 0 [Flags] 2 [Guid] 997065204 [EditorId] 997065204 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9PB1TMA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 983.80 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 17.73 ms.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 23 workers.
+Refreshing native plugins compatible for Editor in 18.55 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 1.37 ms.
 Initialize engine version: 2022.3.19f1 (244b723c30a6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jlee4/VrGolf3/Assets
+[Subsystems] Discovering subsystems at path C:/Users/asapg/Desktop/spring2024/vr/vr_golf/VRGolf/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1060 3GB (ID=0x1c02)
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
     Vendor:   NVIDIA
-    VRAM:     2965 MB
-    Driver:   31.0.15.5152
+    VRAM:     12026 MB
+    Driver:   31.0.15.3667
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56240
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008979 seconds.
-- Loaded All Assemblies, in  0.807 seconds
+Registered in 0.005919 seconds.
+- Loaded All Assemblies, in  0.213 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 283 ms
+Android Extension - Scanning For ADB Devices 152 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.610 seconds
-Domain Reload Profiling: 1416ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.365 seconds
+Domain Reload Profiling: 578ms
+	BeginReloadAssembly (61ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (173ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (55ms)
-	LoadAllAssembliesAndSetupDomain (470ms)
-		LoadAssemblies (96ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (90ms)
+		LoadAssemblies (60ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (468ms)
-			TypeCache.Refresh (467ms)
-				TypeCache.ScanAssembly (453ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (80ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (611ms)
+	FinalizeReload (366ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (556ms)
+		SetupLoadedEditorAssemblies (333ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (400ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (229ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,8 +121,8 @@ Domain Reload Profiling: 1416ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.806 seconds
-Refreshing native plugins compatible for Editor in 20.13 ms, found 16 plugins.
+- Loaded All Assemblies, in  0.504 seconds
+Refreshing native plugins compatible for Editor in 11.95 ms, found 16 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -148,48 +148,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.922 seconds
-Domain Reload Profiling: 1724ms
-	BeginReloadAssembly (142ms)
+- Finished resetting the current domain, in  0.714 seconds
+Domain Reload Profiling: 1215ms
+	BeginReloadAssembly (86ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (21ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (574ms)
-		LoadAssemblies (342ms)
+		CreateAndSetChildDomain (13ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (228ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (311ms)
-			TypeCache.Refresh (231ms)
-				TypeCache.ScanAssembly (210ms)
-			ScanForSourceGeneratedMonoScriptInfo (54ms)
-			ResolveRequiredComponents (25ms)
-	FinalizeReload (922ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (127ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (715ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (688ms)
+		SetupLoadedEditorAssemblies (571ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (96ms)
-			ProcessInitializeOnLoadAttributes (446ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (414ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 21.06 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.08 ms.
-Unloading 8195 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 173 unused Assets / (1.0 MB). Loaded Objects now: 8619.
-Memory consumption went from 318.0 MB to 317.1 MB.
-Total: 5.629400 ms (FindLiveObjects: 0.536100 ms CreateObjectMapping: 0.544200 ms MarkObjects: 4.095800 ms  DeleteObjects: 0.452400 ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 11.63 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.05 ms.
+Unloading 8194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 163 unused Assets / (0.5 MB). Loaded Objects now: 8628.
+Memory consumption went from 319.8 MB to 319.3 MB.
+Total: 3.622600 ms (FindLiveObjects: 0.329900 ms CreateObjectMapping: 0.138900 ms MarkObjects: 2.860400 ms  DeleteObjects: 0.292500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -206,14 +206,251 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 111337.416852 seconds.
+  path: Assets/models/FBX format/tunnel-wide.fbx
+  artifactKey: Guid(c8443511d15e5764a9ec20012ee791c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/tunnel-wide.fbx using Guid(c8443511d15e5764a9ec20012ee791c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a081202df626e9bcef24b7dc06f0fee') in 0.213850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/models/FBX format/support.fbx
+  artifactKey: Guid(63c5a2f0200a00b478376bd023a3878a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/support.fbx using Guid(63c5a2f0200a00b478376bd023a3878a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f5493bdc5872ae34aed0f08130849e') in 0.020570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/FBX format/side.fbx
+  artifactKey: Guid(f43d0396ebee683479cc802e77cfe1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/side.fbx using Guid(f43d0396ebee683479cc802e77cfe1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a655d7369ea7275b62e500778721da') in 0.017656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/models/FBX format/skew-large-corner-open.fbx
+  artifactKey: Guid(9d83c7803c214d5439ff704b9136c2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/skew-large-corner-open.fbx using Guid(9d83c7803c214d5439ff704b9136c2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769d53b27e53cfb27adcc65d00de1d5b') in 0.016779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/FBX format/skew-corner.fbx
+  artifactKey: Guid(d88902eec42b2864abfa2456a9d6409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/skew-corner.fbx using Guid(d88902eec42b2864abfa2456a9d6409f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903957ce33217e6fc2086e580d0b3486') in 0.026284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/FBX format/club-red.fbx
+  artifactKey: Guid(80625db1d8ee94d43ae054a0d35462f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/club-red.fbx using Guid(80625db1d8ee94d43ae054a0d35462f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c23bb03632745b2a87cbb5eda57f51') in 0.027602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/FBX format/bump-down-walls.fbx
+  artifactKey: Guid(f4f9608d49df1d74cb85b23e22cd35f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/bump-down-walls.fbx using Guid(f4f9608d49df1d74cb85b23e22cd35f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851b4a8b6dcc7b06ec0ef39384ed4f28') in 0.028666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/FBX format/split-start.fbx
+  artifactKey: Guid(5ac4c4a9e1711a44780efd74bd88ed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/split-start.fbx using Guid(5ac4c4a9e1711a44780efd74bd88ed91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc754dddeeb6be74d58f7241fe7705c2') in 0.026451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/models/FBX format/ramp-sharp.fbx
+  artifactKey: Guid(253a4cbbe334bf64c849150b94ac58ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/ramp-sharp.fbx using Guid(253a4cbbe334bf64c849150b94ac58ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ae9a50d434e8d3ea1511909a4de1b2') in 0.026106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/models/FBX format/open.fbx
+  artifactKey: Guid(ea5dcd9473b65bc46867e73894b30a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/open.fbx using Guid(ea5dcd9473b65bc46867e73894b30a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994569db68a06229b04a7b13cf12fb9b') in 0.027477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/FBX format/round-corner-c.fbx
+  artifactKey: Guid(d6ffb2cc4d7b26b44ac1795cfd5e96f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/round-corner-c.fbx using Guid(d6ffb2cc4d7b26b44ac1795cfd5e96f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fb1907b219cd8f9f008c18fac0b1dd') in 0.023306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/FBX format/square-corner-a.fbx
+  artifactKey: Guid(bf2993a4333276c49816a0f4e6b65ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/square-corner-a.fbx using Guid(bf2993a4333276c49816a0f4e6b65ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afad13880348ab880f5964e6d4c7b90b') in 0.028444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/FBX format/start.fbx
+  artifactKey: Guid(146d28560ea77624f8b8ba60c8c7d48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/start.fbx using Guid(146d28560ea77624f8b8ba60c8c7d48f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f0ee0fb7456b5250d244b69e4c3b44') in 0.022822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/models/FBX format/ramp-square.fbx
+  artifactKey: Guid(96d02771078a9e245b986d8933e97b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/ramp-square.fbx using Guid(96d02771078a9e245b986d8933e97b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cc53537046c580199bf9c4d5a9383b') in 0.019170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/models/FBX format/bump.fbx
+  artifactKey: Guid(eb27795f541c93e49bd93deda5969707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/bump.fbx using Guid(eb27795f541c93e49bd93deda5969707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b12bdd29cd4eb53da3885467a8515e') in 0.021532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/FBX format/split-walls-to-open.fbx
+  artifactKey: Guid(16d0f0414db46a740a9b98eaea68bb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/split-walls-to-open.fbx using Guid(16d0f0414db46a740a9b98eaea68bb15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e95df67d8705e9919e9d89a5049aee') in 0.023236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/FBX format/hill-corner.fbx
+  artifactKey: Guid(1f38523dbece0c94187b9eafbdea21f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/hill-corner.fbx using Guid(1f38523dbece0c94187b9eafbdea21f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4757c9d23a4d57219d1d21d2636f20a') in 0.023504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/models/FBX format/obstacle-diamond.fbx
+  artifactKey: Guid(acc859fc151a5b74288788125fd2fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/obstacle-diamond.fbx using Guid(acc859fc151a5b74288788125fd2fb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c179ad95e21a50f20d460b7cea8c4c02') in 0.028809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/models/FBX format/block.fbx
+  artifactKey: Guid(1d988b4b35a8b6b46919f454030b0b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/block.fbx using Guid(1d988b4b35a8b6b46919f454030b0b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52881cc0eae3cab072d0c44a86de9bfd') in 0.020654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/models/FBX format/round-corner-b.fbx
+  artifactKey: Guid(8f239219d338ca4438f10ef8e7ffb6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/round-corner-b.fbx using Guid(8f239219d338ca4438f10ef8e7ffb6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdbb9c87a4eca4f3384fd491b813166') in 0.020011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 3.496006 seconds.
+  path: Assets/models/FBX format/walls-to-open.fbx
+  artifactKey: Guid(0d9726ef667c3434f9520b4e46f57533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/models/FBX format/walls-to-open.fbx using Guid(0d9726ef667c3434f9520b4e46f57533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078471d6fd424a7d89bf83c253622053') in 0.033648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 375.267056 seconds.
+  path: Assets/materials/New Material 8.mat
+  artifactKey: Guid(432bf0204c93c2346a2bb7ffd7716bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/New Material 8.mat using Guid(432bf0204c93c2346a2bb7ffd7716bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c874ab4ee64f3054505259e2055a48') in 0.044450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 109.385552 seconds.
+  path: Assets/materials/New Material 3.mat
+  artifactKey: Guid(23e0004ba0bf6b94b9281a2c5f69011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/materials/New Material 3.mat using Guid(23e0004ba0bf6b94b9281a2c5f69011d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c1761810d765a262422e6c5fcf6002a') in 0.015232 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
 Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.361 seconds
+Refreshing native plugins compatible for Editor in 14.11 ms, found 16 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.916 seconds
+Domain Reload Profiling: 1274ms
+	BeginReloadAssembly (118ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (18ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (221ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (916ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (443ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (309ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 24.00 ms, found 16 plugins.
-Preloading 2 native plugins for Editor in 0.08 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (0.9 MB). Loaded Objects now: 8619.
-Memory consumption went from 146.5 MB to 145.6 MB.
-Total: 7.108400 ms (FindLiveObjects: 0.613400 ms CreateObjectMapping: 0.695900 ms MarkObjects: 5.409800 ms  DeleteObjects: 0.388200 ms)
+Refreshing native plugins compatible for Editor in 21.75 ms, found 16 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 7926 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 118 unused Assets / (0.5 MB). Loaded Objects now: 8715.
+Memory consumption went from 270.4 MB to 269.8 MB.
+Total: 3.792000 ms (FindLiveObjects: 0.410800 ms CreateObjectMapping: 0.155200 ms MarkObjects: 2.982300 ms  DeleteObjects: 0.242700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):

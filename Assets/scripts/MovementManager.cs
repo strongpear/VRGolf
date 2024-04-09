@@ -63,7 +63,8 @@ public class MovementManager : MonoBehaviour
         if (myView.IsMine)
         {
             myXrRig.position = myChild.transform.position;
-            
+            myChild.transform.forward = forwardDirection;
+
             if (inputData.leftController.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 movement))
             {
                 xInput = movement.x;

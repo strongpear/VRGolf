@@ -97,18 +97,18 @@ public class MovementManager : MonoBehaviour
                         {
                             if (hit.collider.name == "Banner 1")
                             {
-                                transform.position = playerSpawn1.position;
-                                transform.rotation = playerSpawn1.rotation;
+                                myChild.transform.position = playerSpawn1.position;
+                                myChild.transform.rotation = playerSpawn1.rotation;
                             }
                             else if (hit.collider.name == "Banner 2")
                             {
-                                transform.position = playerSpawn2.position;
-                                transform.rotation = playerSpawn3.rotation;
+                                myChild.transform.position = playerSpawn2.position;
+                                myChild.transform.rotation = playerSpawn3.rotation;
                             }
                             else if (hit.collider.name == "Banner 3")
                             {
-                                transform.position = playerSpawn3.position;
-                                transform.rotation = playerSpawn3.rotation;
+                                myChild.transform.position = playerSpawn3.position;
+                                myChild.transform.rotation = playerSpawn3.rotation;
                             }
                         }
                     }
@@ -121,7 +121,7 @@ public class MovementManager : MonoBehaviour
             {
                 if (pressed)
                 {
-                    putter.transform.position = transform.position + new Vector3(0,2,0);
+                    putter.transform.position = myChild.transform.position + new Vector3(0,2,0);
                 }
             }
             if (myLogistics.gameOver)

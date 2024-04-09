@@ -9,6 +9,7 @@ TagManager:
   - teleportObjectTag
   - Ball
   - Hole
+  - SpeedIncreaseTrigger
   layers:
   - Default
   - TransparentFX

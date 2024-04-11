@@ -7134,7 +7134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70fa42c1d2650984cbf5fd5dfbe690b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 2
   maxHeight: 546
   minHeight: 536
 --- !u!65 &1432468735
@@ -10811,7 +10811,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70fa42c1d2650984cbf5fd5dfbe690b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 2
   maxHeight: 546
   minHeight: 536
 --- !u!65 &2072517233

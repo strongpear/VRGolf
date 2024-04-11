@@ -1,23 +1,38 @@
 using UnityEngine;
+using System.Collections;
 
-public class NewBehaviorScript : MonoBehaviour
+public class BallSpeedController : MonoBehaviour
 {
-    public float initialSpeed = 5f; // Initial speed of the ball
-    public float speedIncreaseFactor = 1.5f; // Factor by which speed increases upon contact with the certain object
+    public float speedIncreaseAmount = 5f; // Amount by which to increase the speed
+    public float duration = 5f; // Duration of the speed boost
+    public GameObject ball; // Reference to the ball GameObject
 
-    private Rigidbody rb;
-
-    private void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-        rb.velocity = transform.forward * initialSpeed; // Set initial velocity
-    }
+    private bool isBoostActive = false;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("SpeedIncreaseTrigger")) // Check if the object is the one that increases speed
+        if (other.gameObject == ball && !isBoostActive)
         {
-            rb.velocity *= speedIncreaseFactor; // Increase speed
+            isBoostActive = true;
+            StartCoroutine(ActivateSpeedBoost());
+            gameObject.SetActive(false); // Deactivate the power-up object
         }
+    }
+
+    IEnumerator ActivateSpeedBoost()
+    {
+        // Increase the speed of the ball
+        Rigidbody ballRigidbody = ball.GetComponent<Rigidbody>();
+        float originalSpeed = ballRigidbody.velocity.magnitude;
+        ballRigidbody.velocity = ballRigidbody.velocity.normalized * (originalSpeed + speedIncreaseAmount);
+
+        // Wait for the duration of the speed boost
+        yield return new WaitForSeconds(duration);
+
+        // Reset the speed of the ball after the duration
+        ballRigidbody.velocity = ballRigidbody.velocity.normalized * originalSpeed;
+
+        // Reset flag
+        isBoostActive = false;
     }
 }
